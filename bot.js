@@ -10,7 +10,7 @@ if(!message.channel.guild) return;
   //start of create role 
   if(!role){
     rainbow =  message.guild.createRole({
-   name: "Rainbow Quick.",//the role will create name
+   name: "ron",//the role will create name
    color: "#000000",//the default color
    permissions:[]//the permissions
  //end of create role
