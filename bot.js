@@ -23,7 +23,7 @@ message.channel.send('Done The Rainbow Role Setup Has Been Completed')//if the s
 client.on('ready', () => {//new ready event
   setInterval(function(){
       client.guilds.forEach(g => {
-                  var role = g.roles.find('name', 'Rainbow Quick.');//rainbow role name
+                  var role = g.roles.find('ron');//rainbow role name
                   if (role) {
                       role.edit({color : "RANDOM"});
                   };
