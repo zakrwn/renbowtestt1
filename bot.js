@@ -3,6 +3,7 @@ const client = new Discord.Client();
 
 
 client.on('message', message => {//new msg event
+   var prefix = ".";
 if(!message.channel.guild) return;
   if(message.content.startsWith(prefix + 'Rainbow')) {//to create the rainbow role
       let role = message.guild.roles.find('ron')
